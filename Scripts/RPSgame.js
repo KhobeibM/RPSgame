@@ -94,8 +94,8 @@ function displayResults(
   let theScoreDisplay = document.querySelector(".jsScore");
   theResultDisplay.innerHTML = aResult;
   theMovesDisplay.innerHTML = `You
-        <img class="moveIcon" src="//images/${aUserChoice}Final.png" alt="Rock"/>
-        <img class="moveIcon" src="//images/${aComputerChoice}Final.png" alt="Rock"/>
+        <img class="moveIcon" src="./images/${aUserChoice}Final.png" alt="Rock"/>
+        <img class="moveIcon" src="./images/${aComputerChoice}Final.png" alt="Rock"/>
         Computer`;
   theScoreDisplay.innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
 }
